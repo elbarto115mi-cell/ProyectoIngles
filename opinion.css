@@ -1,0 +1,227 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #242527;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HEADER */
+  header {
+    background-image: url(img/textura.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 140px;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  
+  .navbar li a:hover,
+  .navbar li a.active {
+    color: #E70B25;
+  }
+  
+  /* SECCIÓN OPINIÓN */
+  .opinion-section {
+    padding: 80px 20px;
+    background-color: #242527;
+    text-align: center;
+  }
+  
+  .opinion-section h2 {
+    font-size: 40px;
+    color: #b39696;
+    margin-bottom: 15px;
+  }
+  
+  .opinion-section .intro {
+    font-size: 18px;
+    color: #A0A0A0;
+    margin-bottom: 40px;
+  }
+  
+  /* FORMULARIO */
+  .opinion-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: url(img/textura.jpg) center/cover;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    text-align: left;
+  }
+  
+  .opinion-content p{
+    color: #857e7e;
+    font-size: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: #bbb;
+  }
+  
+  /* BOTÓN */
+  .btn-opinion {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #E70B25 0%, #900314 100%);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-opinion:hover {
+    background: linear-gradient(90deg, #ff1e3c 0%, #b30520 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(231,11,37,0.5);
+  }
+  
+  /* BOTÓN REGRESAR */
+  .regresar {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .regresar a {
+    display: inline-block;
+    padding: 10px 25px;
+    background: linear-gradient(90deg, #E70B25 0%, #900314 100%);
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  .regresar a:hover {
+    background: linear-gradient(90deg, #ff1e3c 0%, #b30520 100%);
+  }
+  
+  .opinion{
+    font-size: 50px;
+    color: whitesmoke;
+    text-align:unset;
+    margin-top: 100px;
+    margin-bottom: -70px;
+  }
+
+  .opinion-content h3{
+    color: #adb7c4;
+    font-size: 35px;
+  }
+
+  .team-opinions h2{
+    color: white;
+    align-items: center;
+      font-size: 45px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .container h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .team-opinions img{
+    width: 200px;
+    height: 250px;
+  }
+
+  /* === ESTILO PARA LAS OPINIONES DE MELINA Y ÁNGEL === */
+.opinions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.opinion-card {
+  background: #2c2f33;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.opinion-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.opinion-img img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #294f3c; /* marco rojo */
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.opinion-img img:hover {
+  transform: scale(1.05);
+}
+
+.opinion-content h3 {
+  font-size: 24px;
+  color: #3e7646;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.opinion-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #c9c9c9;
+  text-align: justify;
+}

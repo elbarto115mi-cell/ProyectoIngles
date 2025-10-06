@@ -1,0 +1,79 @@
+.news-section {
+    padding: 100px 0;
+    background-color: #242527;
+  }
+  
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .news-card {
+    background-image: url(img/textura.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    color: #FDFDFD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .news-img img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .news-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .news-content p {
+    font-size: 20px;
+    color: #A0A0A0;
+    margin-bottom: 15px;
+  }
+  
+  .read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #FDFDFD;
+    border-radius: 25px;
+    color: #FDFDFD;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .read-more:hover {
+    background: linear-gradient(90deg, #E70B25 0%, #900314 100%);
+    color: #fff;
+    border-color: #900314;
+  }
+  
+  .center {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .title{
+    color: #DD241B;
+    font-size: 75px;
+    text-align: center;
+
+  }
+
+  .regresar{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+  font-size: 30px;
+    background: #222;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #444;}
